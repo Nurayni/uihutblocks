@@ -1,0 +1,108 @@
+/*------ Feature2 css --------*/
+._design_feature2_wrapper {
+	padding:90px 0px;
+	background: #FFFFFF;
+}
+._feature2_img {
+	max-width: 650px;
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+    display:block;
+}
+._design_feature2_content_title {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 1.4;
+	letter-spacing: -0.01em;
+	color: #192430;
+    font-family: Poppins;
+	margin:0 0 24px 0;
+}
+._design_feature2_content {
+    margin: 0 46px;
+}
+._design_feature2_content_para {
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 0.01em;
+	color: var(--color5);
+	max-width: 96%;
+	margin:0 0 60px 0;
+}
+._design_feature2_box_info_title {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #222222;
+	margin:0 0 10px 0;
+}
+._design_feature2_box_info_para {
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 27px;
+	letter-spacing: -0.01em;
+	color: var(--color5);
+}
+._design_feature2_box {
+    display: flex;
+    align-items: center;
+	margin:0 0 30px 0;
+}
+._design_feature2_box_info {
+    padding: 0 0 0 40px;
+}
+._design_feature_svg {
+	max-width: 30px;
+	height: 29px;
+}
+._icon_img {
+    max-width: 30px;
+    width: 100%;
+    height:auto;
+    display:block;
+}
+/*---- Responsive ----*/
+@media(max-width:1199px) {
+	._design_feature2_content_title {
+		font-size: 28px;
+	}
+}
+@media(max-width:991px) {
+	._design._feature2_image {
+		margin: 0 0 60px 0;
+	}
+	._design_feature2_content_para {
+		max-width: 100%;
+	}
+	._design_feature2_wrapper {
+		padding: 60px 0px;
+		background: var(--bg);
+	}
+	._design_feature3_wrapper {
+		padding: 60px 0px 0 0;
+	}
+}
+@media(max-width:575px) {
+	._design_feature2_wrapper {
+		padding: 50px 0px;
+	}
+	._design_feature2_content_title {
+		font-size: 22px;
+	}
+	._design_feature2_box {
+		flex-direction: column;
+	}
+	._design_feature2_box_info {
+		padding: 24px 0 0 0;
+		text-align: center;
+	}
+	._design_feature2_content {
+		text-align: center;
+	}
+}
+/*------ Feature2 css End --------*/

@@ -1,0 +1,114 @@
+
+/*------- Service css ---------*/
+._service_care_wrapper {
+	padding:100px 0px;
+	background-color: var(--bg2);
+}
+._service_img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+._service_care_content {
+	text-align: center;
+}
+._service_care_content_txt {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5E6085;
+	margin:0 0 16px 0;
+}
+._service_care_content_title {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 1.4;
+    color: #000958;
+}
+._service_care_settings_inner {
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 40px;
+	margin: 30px 0 24px 0;
+}
+._service_care_inner_area {
+	position: relative;
+}
+._service_care_inner_area::before {
+	content:"";
+	position: absolute;
+	bottom: 16px;
+    left: -7px;
+	border: 2px solid #FF5B2E;
+	width: 20px;
+	transform: rotate(90deg);
+}
+._service_care_settings_inner_title {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #000958;
+	margin: 0 0 16px 16px;
+}
+._service_care_settings_inner_txt {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #656689;
+	margin:0 0 24px 0;
+}
+._service_care_settings_inner_btn {
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #34396A;
+    text-decoration: none;
+}
+._service_care_image_inner {
+    margin: 36px 0 0 0;
+}
+._service_care_btn {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+._service_care_btn1 {
+    border:  1px solid #ff5b2e61;
+    border-radius: 31px;
+    padding: 20px 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #FF5B2E;
+    text-decoration: none;
+	transition: .2s all ease;
+}
+._service_care_btn1:hover {
+	box-shadow: 0px 13px 26px -8px rgb(255 91 46 / 42%);
+	border:  1px solid #FF5B2E;
+	color: #FF5B2E;
+}
+/*------- Service css End ---------*/
+/*---- Responsive ------*/
+@media(max-width:575px) {
+	._service_care_wrapper {
+		padding: 50px 0px;
+	}
+	._service_care_content_txt {
+		font-size: 14px;
+	}
+	._service_care_content_title {
+		font-size: 26px;
+	}
+}

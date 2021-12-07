@@ -1,0 +1,203 @@
+/*------ Header css --------*/
+._doorhub_header_wrapper {
+    padding:40px 0px;
+}
+
+/*---- Navbar Css ----*/
+._logo {
+    margin: 0 140px 0 0;
+}
+._doorhub_header_nav_item {
+    margin: 0 16px;
+}
+._doorhub_header_nav_link {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #AAA7B1;
+    transition:.2s all ease;
+}
+._doorhub_header_nav_link:hover {
+    color:#2E2C49 !important;
+    font-weight: 500 !important;
+}
+._doorhub_header_nav_link_active {
+    color:#2E2C49 !important;
+    font-weight: 500 !important;
+}
+._doorhub_header_nav_right_link {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    background: linear-gradient(153.09deg, #5390FF 10.28%, #1660E6 102.17%);
+    box-shadow: 0px 16px 40px -8px rgb(56 126 250 / 28%);
+    border-radius: 27px;
+    padding: 19px 42px;
+    text-decoration: none;
+    transition:.2s all ease;
+}
+._doorhub_header_nav_right_link:hover {
+    color:#FFFFFF;
+    box-shadow: none;
+}
+._nav_logo {
+    width:100%;
+    height:auto;
+    display: block;
+}
+._doorhub_header_nav_right{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+/*---- Navbar Css End ----*/
+
+._doorhub_header_wrap {
+    padding:120px 0px 100px 0;
+}
+._doorhub_header_content_title {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
+    color: #2E2C49;
+    margin:0 0 20px 0;
+}
+._doorhub_header_content_para {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.015em;
+    color: #7B7E90;
+    max-width: 88%;
+    margin:0 0 40px 0;
+}
+._doorhub_header_content_form {
+    position: relative;
+}
+._doorhub_header_content_input {
+    background: #FFFFFF;
+    box-shadow: 0px 18px 26px rgb(188 188 188 / 9%);
+    border-radius: 34px;
+    width: 464px;
+    height: 68px;
+    border: 1px solid #cddffe;
+    padding: 26px 168px 26px 26px;
+    outline:none !important;
+}
+._doorhub_header_content_button {
+    background: linear-gradient(153.09deg, #5390FF 10.28%, #1660E6 102.17%);
+    box-shadow: 0px 4px 12px rgb(56 126 250 / 20%);
+    border-radius: 27px;
+    height: 52px;
+    width: 147px;
+    border: 1px solid transparent;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none !important;
+}
+._doorhub_header_content_input::placeholder {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #BAB8BD;
+}
+._doorhub_header_content_input:focus::placeholder {
+    opacity:0;
+    transition:.2s all ease;
+}
+._doorhub_header_content_button span {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px -8px rgb(185 66 42 / 19%);
+    border-radius: 28px;
+    padding: 4px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0 0 0 12px;
+}
+._header_img {
+    max-width: 496px;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*----- Responsive --------*/
+@media(min-width:1200px) and (max-width:1399px){
+    ._doorhub_header_content_input {
+        width: 415px;
+    }
+    ._doorhub_header_content_button {
+        right: 0;
+    }
+}
+@media(max-width:1199px) {
+    ._doorhub_header_content_input {
+        width: 100%;
+    }
+    ._doorhub_header_content_title {
+        font-size: 42px;
+    }
+    ._doorhub_header_nav_item {
+        margin: 0 8px;
+    }
+}
+@media(max-width:991px) {
+    ._doorhub_header_content_title {
+        font-size: 52px;
+    }
+    ._doorhub_header_image {
+        margin:60px 0 0 0;
+    }
+    ._doorhub_header_nav_right_link {
+        padding: 16px 30px;
+    }
+    ._doorhub_header_nav.mx-auto {
+        margin: 20px 0;
+    }
+}
+@media(max-width:767px) {
+    ._doorhub_header_content {
+        text-align: center;
+    }
+    ._doorhub_header_content_title {
+        font-size: 40px;
+    }
+    ._doorhub_header_content_para {
+        font-size: 16px;
+        margin: 0 auto 40px auto;
+    }
+    ._doorhub_header_wrap {
+        padding: 70px 0px 70px 0;
+    }
+}
+@media(max-width:575px) {
+    ._logo {
+        margin: 0;
+    }
+    ._doorhub_header_content_title {
+        font-size: 34px;
+    }
+    ._doorhub_header_content_input::placeholder {
+        font-size: 12px;
+    }
+}
+/*------ Header css End --------*/

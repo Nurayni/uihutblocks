@@ -1,0 +1,102 @@
+
+
+/*------ Secure Css -----*/
+._security_secure_wrapper {
+	padding:120px 0px 100px 0;
+	background:#f1f3fb;
+}
+._security_secure_image {
+	position: relative;
+	z-index: 1;
+}
+._security_secure_image::before {
+	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 386px;
+    height: 386px;
+    background: #E5DFFB;
+    border-radius: 20px;
+    z-index: -1;
+    transform: translate(-50%,0);
+}
+._security_secure_img {
+	max-width: 246px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 20px 20px 0px 0px;
+	margin:0 auto;
+	width: 100%;
+	height:auto;
+	display: block;
+}
+._security_secure_content_box {
+	display: flex;
+	align-items:center;
+	margin:0 0 30px 0;
+}
+._security_secure_content_box_info {
+	padding: 0 0 0 30px;
+}
+._security_secure_content_box_info_title {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.4;
+	letter-spacing: -0.02em;
+	max-width: 68%;
+	text-shadow: 0px 0px 0 #2d3a67, -1px -1px 0 #2d3a67, 1px -1px 0 #2d3a67, -1px 1px 0 #2d3a67, 1px 1px 0 #2d3a67;
+	-webkit-text-fill-color:#f1f3fb;
+	-webkit-text-stroke:#2D3A67;
+	transition:.2s all ease;
+}
+._security_secure_content_box_info_title:hover{
+	-webkit-text-fill-color:#1A093F;
+	text-shadow: 1px 1px 0 #2d3a67, -1px -1px 0 #2d3a67, 1px -1px 0 #2d3a67, -1px 1px 0 #2d3a67, 1px 1px 0 #2d3a67;
+}
+._secure_box {
+	margin:0;
+}
+/*----- responsive ------*/
+@media(min-width:1200px) and (max-width:1399px) {
+	._security_secure_content_box_info_title {
+		font-size: 32px;
+	}
+}
+@media(max-width:1199px) {
+	._security_secure_content_box_info_title {
+		font-size: 24px;
+	}
+}
+@media(max-width:991px) {
+	._order_2 {
+		order:2 !important;
+	}
+	._security_secure_image {
+		position: relative;
+		z-index: 1;
+		margin: 120px 0 0;
+	}
+}
+@media(max-width:767px) {
+	._security_secure_wrapper {
+		padding: 70px 0px 70px 0;
+	}
+	._security_secure_content {
+		width: fit-content;
+		margin: 0 auto 0 56px;
+	}
+}
+@media(max-width:575px) {
+	._security_secure_content {
+		margin: 0 auto 0 0px !important;
+	}
+	._security_secure_content_box_info_title {
+		font-size: 16px;
+	}
+	._security_secure_wrapper {
+		padding: 50px 0px 50px 0;
+	}
+}
+/*------ Secure Css End -----*/

@@ -1,0 +1,163 @@
+
+/*---- Testimonial Css -----*/
+._fudo_testimonial_wrapper {
+    padding:100px 0px;
+    background:#ffffff;
+}
+._fudo_testimonial_top_content {
+    text-align: center;
+}
+._fudo_testimonial_top_content_txt {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000000;
+}
+._fudo_testimonial_top_title {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #2E2E2E;
+    margin: 0 0 58px 0;
+}
+._fudo_testimonial_inner {
+    text-align: center;
+}
+._fudo_testimonial_icon {
+    margin:0 0 40px 0;
+}
+._testimonial_icon {
+    max-width: 44px;
+    margin:0 auto;
+    width: 100%;
+    height:auto;
+    display: block;
+}
+._fudo_testimonial_inner_para {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    color: var(--color);
+    max-width: 52%;
+    margin: 0 auto 50px auto;
+}
+._testimonial_img {
+    max-width: 75px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px -10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0 auto 10px auto;
+    display: block;
+    width:100%;
+    height:auto;
+}
+._fudo_testimonial_inner_txt {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #2E2E2E;
+}
+._fudo_testimonial_btn_grp {
+    position: relative;
+}
+._prev_btn {
+    position: absolute;
+    left: 0;
+    top: -154px;
+}
+._next_btn {
+    position: absolute;
+    right: 0;
+    top: -154px;
+}
+._prev_btn, ._next_btn {
+    border: 2px solid #C4C4C4;
+    border-radius: 12px;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none !important;
+    transition:.2s all ease;
+}
+._prev_btn, ._next_btn svg path {
+    transition:.2s all ease;
+}
+._prev_btn:hover {
+    border: 2px solid transparent;
+    background:#F54748;
+}
+._prev_btn:hover svg path {
+    stroke:#fff;
+}
+._next_btn:hover {
+    border: 2px solid transparent;
+    background:#F54748;
+}
+._next_btn:hover svg path {
+    stroke:#fff;
+}
+@media(max-width:1199px) {
+    ._fudo_testimonial_top_title {
+        font-size: 50px;
+    }
+}
+@media(max-width:991px) {
+    ._fudo_testimonial_inner_para {
+        max-width: 92%;
+    }
+}
+@media(max-width:767px) {
+    ._fudo_testimonial_wrapper {
+        padding: 70px 0px;
+    }
+    ._fudo_testimonial_top_title {
+        font-size: 38px;
+    }
+    ._prev_btn, ._next_btn {
+        width: 50px;
+        height: 50px;
+    }
+    ._prev_btn {
+        left: 178px;
+        top: 20px;
+    }
+    ._next_btn {
+        right: 205px;
+        top: 20px;
+    }
+}
+@media(max-width:575px) {
+    ._fudo_testimonial_wrapper {
+        padding: 50px 0;
+    }
+    ._fudo_testimonial_top_title {
+        font-size: 28px;
+    }
+    ._fudo_testimonial_inner {
+        margin: 0 0 0 14px;
+    }
+}
+@media(max-width:540px) {
+    .glide__arrows {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ._prev_btn {
+        left: -80px;
+    }
+    ._next_btn {
+        right: -80px;
+    }
+}
+/*---- Testimonial Css End -----*/

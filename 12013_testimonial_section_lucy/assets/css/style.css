@@ -1,0 +1,125 @@
+/*------- Testimonial css ---------*/
+._testimonial_care_wrapper {
+	padding:100px 0px;
+	background-color: #fffaf5;
+}
+._testimonial_img {
+	max-width: 274px;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	display: block;
+}
+._testimonial_content_title {
+	font-family: Sora;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 1.6;
+	color: #000958;
+	margin:0 0 20px 0;
+}
+._testimonial_content_para {
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #000000;
+	margin:0 0 34px 0;
+}
+._testimonial_content_title1 {
+	font-family: Sora;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #282828;
+}
+._testimonial_content_title1 svg {
+	margin: 0 9px 0 0;
+}
+._testimonial_slider_btn_group {
+    position: relative;
+}
+._testimonial_slider_btn_group .glide__arrow--left {
+	position: absolute;
+	bottom: 184px;
+	border: 1.5px solid #FFD1C4;
+	width: 54px;
+	height: 54px;
+	background: transparent;
+	border-radius: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	outline:none !important;
+	transition:.2s all ease;
+}
+._testimonial_slider_btn_group .glide__arrow--left:hover {
+	background:#ff5b2e;
+	border: 1.5px solid #ff5b2e;
+}
+._testimonial_slider_btn_group .glide__arrow--left:hover path {
+	stroke:#fff;
+}
+._testimonial_slider_btn_group .glide__arrow--right {
+	position: absolute;
+    bottom: 184px;
+	right:0;
+	border: 1.5px solid #FFD1C4;
+	width: 54px;
+	height: 54px;
+	background: transparent;
+	border-radius: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	outline:none !important;
+}
+._testimonial_slider_btn_group .glide__arrow--right:hover {
+	background:#ff5b2e;
+	border: 1.5px solid #ff5b2e;
+}
+._testimonial_slider_btn_group .glide__arrow--right:hover path {
+	stroke:#fff;
+}
+._testimonial_content_inner  {
+	margin: 0 -54px;
+}
+._testimonial_slider_dots {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.glide__bullet {
+	border: 1px solid #FF5B2E;
+	border-radius: 4px;
+	background:transparent;
+	width: 8px;
+	height: 8px;
+	outline:none !important;
+}
+.glide__bullet--active {
+	background: #FF5B2E;
+	border-radius: 4px;
+	width:24px;
+}
+/*------- Testimonial css End ---------*/
+
+/*--- Responsive ------*/
+@media(max-width:991px) {
+	._testimonial_content_inner {
+		margin: 46px 0 0 0;
+		text-align: center;
+	}
+}
+@media(max-width:575px) {
+	._testimonial_content_para {
+		max-width: 80%;
+		margin: 0 auto 34px auto;
+	}
+	._testimonial_care_wrapper {
+		padding: 50px 0px;
+	}
+	._testimonial_content_title {
+		font-size: 30px;
+	}
+}

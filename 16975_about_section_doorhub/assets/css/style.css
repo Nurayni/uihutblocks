@@ -1,0 +1,148 @@
+/*------ Category css --------*/
+._doorhub_category_wrapper {
+    padding:100px 0px;
+}
+._doorhub_category_content {
+    text-align: center;
+}
+._doorhub_category_content_title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.4;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #2E2C49;
+    max-width: 52%;
+    margin: 0 auto 26px auto;
+}
+._doorhub_category_content_para {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.005em;
+    color: #AAA7B1;
+    margin:0 0 53px 0;
+}
+._category_slider_img {
+    max-width:64px;
+    height:48px;
+    margin: 0 auto;
+    object-fit: contain;
+    width: 100%;
+    display: block;
+}
+._doorhub_category_slider_content {
+    background: linear-gradient(180deg, #EAF0FF 0%, rgba(234, 240, 255, 0) 100%);
+    border-radius: 28px;
+    padding: 30px;
+    margin: 0 14px;
+    height: 100%;
+    transition:.2s all ease;
+}
+._doorhub_category_slider_content:hover {
+    background: linear-gradient(138.79deg, #B0CFFF 8.47%, #82B2FE 81.99%);
+    box-shadow: 0px 28px 63px -13px rgba(80, 136, 225, 0.29); 
+    height: calc(100% + 25px);
+}
+._glide_track {
+    padding: 10px 0 80px;
+}
+._glide_slides {
+    overflow: initial;
+}
+._doorhub_category_slider_content_image {
+    background: #FFFFFF;
+    box-shadow: 0px 18px 44px -12px rgb(135 135 135 / 9%);
+    border-radius: 50%;
+    margin: 0 auto 32px auto;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._doorhub_category_slider_content_title {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #4D4C66;
+    text-transform: uppercase;
+    transition:.2s all ease;
+}
+._doorhub_category_slider_content:hover ._doorhub_category_slider_content_title {
+    color:var(--bg);
+}
+._doorhub_category_slider_btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 14px 0 14px;
+}
+._pervious_btn, ._next_btn {
+    border: 1px solid #4E8DFD;
+    box-sizing: border-box;
+    border-radius: 28px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin: 0 6px;
+    transition:.2s all ease;
+    outline:none !important;
+}
+._pervious_btn, ._next_btn path {
+    transition:.2s all ease;
+}
+._pervious_btn:hover {
+    background: linear-gradient(164.96deg, #5391FF 12.78%, #1C65E8 126.02%);
+    box-shadow: 0px 5px 21px -1px rgba(47, 116, 240, 0.36);
+}
+._next_btn:hover {
+    background: linear-gradient(164.96deg, #5391FF 12.78%, #1C65E8 126.02%);
+    box-shadow: 0px 5px 21px -1px rgba(47, 116, 240, 0.36);
+}
+._pervious_btn:hover path {
+    fill:#FFFDFA;
+}
+._next_btn:hover path {
+    fill:#FFFDFA;
+}
+/*----- Responsive --------*/
+@media(min-width:1200px) and (max-width:1399px) {
+    ._doorhub_category_slider_content_title {
+        font-size: 20px;
+    }
+    ._doorhub_category_slider_content_image {
+        margin: 0 auto 32px -6px;
+    }
+}
+@media(max-width:991px) {
+    ._doorhub_category_content_title {
+        font-size: 36px;
+    }
+}
+@media(max-width:767px) {
+    ._doorhub_category_content_title {
+        font-size: 28px;
+    }
+    ._doorhub_category_slider_btn {
+        justify-content: center;
+    }
+    ._doorhub_category_wrapper {
+        padding: 70px 0px;
+    }
+}
+@media(max-width:575px) {
+    ._doorhub_category_wrapper {
+        padding: 50px 0px;
+    }
+    ._doorhub_category_content_title {
+        font-size: 19px;
+    }  
+    ._doorhub_category_slider_content_title {
+        font-size: 20px;
+    }
+}
+/*------ Category css End --------*/

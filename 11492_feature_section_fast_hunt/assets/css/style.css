@@ -1,0 +1,86 @@
+
+/*------ Service Css -----*/
+._security_service_wrapper {
+	padding:100px 0px 0;
+	background: #4141A5;
+}
+._security_service_img {
+	max-width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+._security_service_inner_image {
+	margin:0 0 40px 0;
+}
+._security_service_inner_info {
+	text-align: center;
+}
+._security_service_inner_info_title {
+	font-family: Manrope;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 1.4;
+	letter-spacing: -0.01em;
+	color: #ECEEF0;
+	max-width: 64%;
+    margin: 0 auto 12px auto;
+}
+._security_service_inner_info_para {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #FFFFFF;
+	max-width: 72%;
+    margin: 0 auto;
+}
+._security_service_inner {
+    margin: 0 0 100px 0;
+	transition:.2s all ease;
+	padding: 30px;
+	border-radius: 20px;
+	border:1px solid transparent;
+}
+._security_service_inner:hover {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid #FFFFFF;
+}
+/*---- Responsive -------*/
+@media(min-width:1200px) and (max-width:1399px) {
+	._security_service_inner_info_title {
+		max-width: 74%;
+	}
+	._security_service_inner_info_para {
+		max-width: 82%;
+	}
+}
+@media(max-width:1199px) {
+	._security_service_inner_info_title {
+		font-size: 20px;
+		max-width: 90%;
+	}
+	._security_service_inner_info_para {
+		font-size: 16px;
+		max-width: 100%;
+	}
+}
+@media(max-width:991px) {
+	._security_service_inner_info_title {
+		font-size: 18px;
+		max-width: 100%;
+	}
+	._security_service_inner_info_para {
+		font-size: 14px;
+	}
+}
+@media(max-width:575px) {
+	._security_service_wrapper {
+		padding: 50px 0px 0;
+	}
+}
+/*------ Service Css End -----*/

@@ -1,0 +1,272 @@
+/*------ Header Css -------*/
+._security_header_wrapper {
+	background:#f1f3fb;
+	padding: 40px;
+}
+/*---- Nav Css -----*/
+._security_header_nav {
+    margin: -30px 0 0 90px;
+}
+.logo_wrap img {
+	width:100%;
+	height:auto;
+	display: block;
+}
+._security_header_nav {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+._security_header_nav_item {
+	margin:0 20px;
+}
+._security_header_nav_link {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	color:#1A093F !important;
+	transition:.2s all ease;
+	text-decoration: none;
+	position: relative;
+}
+._security_header_nav_link::before {
+	content:"";
+	position: absolute;
+	bottom:0;
+	left:10px;
+	width:24px;
+	border: 2px solid #F64E54;
+	visibility: hidden;
+}
+._security_header_nav_link:hover {
+	color:#F64E54 !important;
+}
+._security_header_nav_link:hover::before {
+	visibility: visible;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 6px;
+    vertical-align: 0px;
+    content: url(../images/CaretDown.svg);
+    border: 0;
+}
+._security_header_nav_right {
+	display: flex;
+	align-items:center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+._security_header_nav_right_item_link  {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	color: #1A093F;
+	display: block;
+	text-decoration: none;
+	transition:.2s all ease;
+}
+._security_header_nav_right_item_link:hover {
+	color:#F64E54;
+}
+._security_header_nav_right_item {
+	margin:0 16px;
+}
+._security_header_nav_right_item_active_link {
+	background:#4141A5;
+	color:#FFFFFF;
+	border-radius: 10px;
+	padding:16px 21px;
+	transition:.2s all ease;
+}
+._security_header_nav_right_item_active_link:hover {
+	box-shadow: 0px 20px 30px -16px rgba(65, 65, 165, 0.3);
+}
+/*---- Nav Css End -----*/
+._security_header_wrap {
+	padding:60px 0;
+}
+._security_header_content {
+	text-align: center;
+}
+._security_header_content_title {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	font-size: 74px;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+	color: #1A093F;
+    margin: 0 0 20px 0;
+}
+._security_header_content_para {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.6;
+	letter-spacing: -0.01em;
+	color: var(--color1);
+	max-width: 44%;
+    margin: 0 auto 40px auto;
+}
+._security_header_content_form {
+	position: relative;
+	margin:0 0 80px 0;
+}
+._security_header_content_form_input {
+	background: #FFFFFF;
+	box-shadow: 0px 44px 104px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+	border:none;
+	width: 100%;
+	padding:21px 30px;
+	outline:none;
+}
+._security_header_content_form_input::placeholder {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	color: #CDCDCD;
+}
+._security_header_content_form_input:focus::placeholder {
+	opacity:0;
+	transition:.2s all ease;
+}
+._security_header_content_form_btn {
+	background:#4141A5;
+	border:none;
+	color:#FFFFFF;
+	box-shadow: 0px 20px 30px -16px rgba(65, 65, 165, 0.3);
+	border-radius: 10px;
+	padding:23px 36px;
+	font-family: Inter;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	position: absolute;
+    top: 0;
+    right: 0px;
+	transition: .2s all ease;
+}
+._security_header_content_form_btn:hover {
+	color:#F64E54;
+}
+._security_header_iamge {
+	position: relative;
+}
+._security_header_img {
+	max-width: 1024px;
+	margin:0 auto;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+._security_header_mini_image {
+	position: absolute;
+    bottom: 34px;
+    left: 76px;
+    box-shadow: 0px 44px 104px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+._security_header_mini_img {
+	max-width: 188px;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+/*----- responsive ------*/
+@media(min-width:1200px) and (max-width:1399px) {
+	._security_header_content_title {
+		font-size: 68px;
+	}
+	._security_header_content_para {
+		max-width: 56%;
+	}
+	._security_header_mini_image {
+		left: -4px;
+	}
+}
+@media(max-width:1199px) {
+	._security_header_nav_item {
+		margin: 0 12px;
+	}
+	._security_header_content_title {
+		font-size: 52px;
+	}
+	._security_header_content_para {
+		font-size: 16px;
+		max-width: 60%;
+	}
+	._security_header_mini_image {
+		left: -70px;
+	}
+}
+@media(max-width:991px) {
+	._logo_wrap {
+		height: 28px;
+	}
+	._security_header_nav {
+		margin: 14px 0 60px 0px;
+	}
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+	._security_header_content_title {
+		font-size: 42px;
+	}
+	._security_header_content_para {
+		font-size: 16px;
+		max-width: 90%;
+	}
+	._security_header_nav_link::before {
+		left: 0;
+	}
+	._security_header_nav_right_item_link {
+		font-size: 13px;
+	}
+}
+@media(max-width:767px) {
+	._security_header_mini_img {
+		max-width: 86px;
+	}
+	._security_header_mini_image {
+		left: -20px;
+	}
+}
+@media(max-width:575px) {
+	._security_header_content_title {
+		font-size: 24px;
+	}
+	._security_header_content_para {
+		max-width: 100%;
+	}
+	._security_header_content_form_btn {
+		padding: 24px 8px;
+		font-size: 14px;
+	}
+	._security_header_content_form_input::placeholder {
+		font-size: 10px;
+	}
+	._security_header_content_form_input {
+		padding: 21px 24px;
+	}
+	._security_header_mini_img {
+		max-width: 55px;
+	}
+	._security_header_mini_image {
+		left: -14px;
+	}
+}
+@media(max-width:350px) {
+	._security_header_content_form_input {
+		padding: 21px 4px;
+	}
+}
+/*------ Header Css End -----*/

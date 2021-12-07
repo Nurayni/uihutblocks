@@ -1,0 +1,160 @@
+/*------ Experience Css -----*/
+._security_experience_wrapper {
+	padding:100px 0px;
+	background:#f1f3fb;
+}
+._seurity_experience_top_info_title {
+	font-family: Manrope;
+	font-weight: 800;
+	font-size: 46px;
+	line-height: 1.4;
+	letter-spacing: -0.01em;
+	color: #282421;
+	margin:0 0 30px 0;
+}
+._seurity_experience_top_info_para {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.4;
+	letter-spacing: -0.01em;
+	color: #6F6681;
+	max-width: 82%;
+	margin:0 0 90px 0;
+}
+._security_experience_top_inner_image {
+    height: 90px;
+    width: 90px;
+    background: #F6F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: -80px 0 37px 0;
+}
+._security_experience_top_inner {
+	background: #FFFFFF;
+	box-shadow: 0px 44px 104px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+	padding:40px;
+}
+._experience_img {
+	max-width: 50px;
+	width:100%;
+	height: auto;
+	display: block;
+}
+._security_experience_top_inner_title {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	color: #282421;
+	margin:0 0 12px 0;
+}
+._security_experience_top_inner_para {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.6;
+	letter-spacing: -0.01em;
+	color: #6F6681;
+	max-width: 86%;
+}
+._security_experience_middle_inner ._security_experience_top_inner_para {
+	max-width: 94%;
+}
+._security_experience_middle_inner1 ._security_experience_top_inner_para {
+	max-width: 94%;
+}
+._security_experience_middle_inner {
+    margin: 180px 20px 60px 20px;
+}
+._security_experience_middle_inner1 {
+    margin:0 20px;
+}
+._security_experience_right_inner {
+	margin: 60px 0 0 0
+}
+._security_experience_inner_wrap {
+	position: relative;
+	z-index: 1;
+}
+._bg_shape {
+	position: absolute;
+	bottom: 62px;
+    left: 70%;
+    transform: translateX(-70%);
+    z-index: -1;
+}
+._bg_shape1 {
+	max-width: 240px;
+}
+/*---- Responsive -------*/
+@media(min-width:1200px) and (max-width:1399px) {
+	._security_experience_top_inner_para {
+		font-size: 16px;
+	}
+	._security_experience_middle_inner1 ._security_experience_top_inner_para {
+		max-width: 100%;
+	}
+	._security_experience_middle_inner ._security_experience_top_inner_para {
+		max-width: 100%;
+	}
+}
+@media(max-width:1199px) {
+	._security_experience_top_inner_title {
+		font-size: 18px;
+	}
+	._security_experience_top_inner_para {
+		font-size: 16px;
+		max-width: 100%;
+	}
+	._security_experience_middle_inner1 ._security_experience_top_inner_para {
+		max-width: 100%;
+	}
+	._security_experience_middle_inner ._security_experience_top_inner_para {
+		max-width: 100%;
+	}
+	._security_experience_middle_inner1 {
+		margin: 0 0px;
+	}
+	._security_experience_middle_inner {
+		margin: 180px 0px 60px 0px;
+	}
+	._seurity_experience_top_info_para {
+		font-size: 16px;
+		max-width: 100%;
+	}
+}
+@media(max-width:991px) {
+	._security_experience_top_inner_para {
+		font-size: 13px;
+	}	
+}
+@media(max-width:767px) {
+	._seurity_experience_top_info {
+		text-align: center;
+	}
+	._security_experience_middle_inner {
+		margin: 100px 0px 60px 0px;
+	}
+	._security_experience_top_inner_image {
+		margin: -80px auto 37px auto;
+	}
+	._security_experience_top_inner_txt {
+		text-align: center;
+	}
+}
+@media(max-width:575px) {
+	._security_experience_wrapper {
+		padding: 50px 0px;
+		background: #f1f3fb;
+	}
+	._seurity_experience_top_info_title {
+		font-size: 26px;
+	}
+}
+/*------ Experience Css End -----*/

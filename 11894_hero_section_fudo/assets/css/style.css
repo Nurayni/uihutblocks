@@ -1,0 +1,403 @@
+/*---- Header Css -----*/
+._fudo_header_wrapper {
+    padding:40px 0;
+    background: linear-gradient(180deg, #FEF3F3 0%, #FFFFFF 100%);
+}
+/*--- Nav Css ----*/
+._logo_wrap {
+    margin: 0 80px 0 0;
+}
+._nav_fudo_logo {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+._nav_fudo_list  {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+._nav_fudo_list_item {
+    margin:0 16px;
+}
+._nav_fudo_list_link {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #5D5D5D !important;
+    transition:.2s all ease;
+}
+._nav_fudo_list_link:hover {
+    font-weight:bold;
+    color:#F54748 !important;
+}
+._nav_fudo_list_link_active {
+    font-weight:bold;
+    color:#F54748 !important;
+}
+._nav_fudo_btn_list {
+    display: flex;
+    align-items: center;
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+._search_btn_list_item {
+    margin:0 12px;
+}
+._nav_fudo_link {
+    display: block;
+    border:1px solid #F54748;
+    background:transparent;
+    padding: 12px 19px;
+    color:#F54748;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.005em;
+    border-radius: 6px;
+    text-decoration: none;
+    transition:.2s all ease;
+}
+._nav_fudo_link:hover {
+    background: #F54748;
+    color:#fff;
+}
+._nav_fudo_link_active {
+    background: #F54748;
+    color:#fff;
+}
+/*--- Nav Css End ----*/
+._fudo_header_wrap {
+    padding: 90px 0 60px 0;
+    position: relative;
+}
+._bg_shape {
+    position: absolute;
+    top: 40px;
+    left: 32%;
+    transform: translateX(-32%);
+}
+._shape {
+    max-width:44px;
+}
+._bg_shape2 {
+    position: absolute;
+    top: 120px;
+    left: 42%;
+    transform: translateX(-42%);
+}
+._shape2 {
+    max-width:90px;
+}
+._fudo_header_content_bottom {
+    background: #FAFAFA;
+    border-radius: 20px;
+    padding:15px 16px;
+    max-width: 419px;
+    display: flex;
+    align-items: center;
+}
+._fudo_header_content_bottom_image {
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px rgba(245, 71, 72, 0.1);
+    padding: 5px;
+    height:100%;
+}
+._header_bottom {
+    max-width:84px;
+    border-radius: 8px;
+}
+._fudo_header_content_bottom_content {
+    padding:0 0 0 12px;
+}
+._fudo_header_content_bottom_content_title {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #2E2E2E;
+    margin:0 0 13px 0;
+}
+._fudo_header_content_bottom_content_para {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #F54748;
+    margin:0 0 6px 0;
+}
+._fudo_header_inner {
+    display: flex;
+    align-items: center;
+}
+._fudo_header_inner_image {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+._header_inner_img {
+    max-width: 28px;
+    border-radius: 4px;
+}
+._fudo_header_inner_para {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #2E2E2E;
+    margin:0;
+    padding:0 0 0 9px;
+}
+._fudo_header_wrap_content_top {
+    background:var(--bg);
+    width: 160px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._fudo_header_wrap_content_top_title {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4;
+    color:#F54748;
+}
+._fudo_header_wrap_content_title {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 1.2;
+    color: #2E2E2E;
+    margin:0 0 30px 0;
+    max-width: 70%;
+}
+._fudo_header_wrap_content_title  span {
+    color:#F54748;
+}
+._fudo_header_wrap_content_para {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    color: #5D5D5D;
+    max-width: 80%;
+    margin:0 0 46px 0;
+}
+._fudo_header_wrap_content_form {
+    position:relative;
+    z-index: 1;
+    margin:0 0 56px 0;
+}
+._form_icon {
+    position: absolute;
+    bottom: 20px;
+    left: 58%;
+    transform: translateX(-58%);
+}
+._form_icon_img {
+    max-width: 20px;
+}
+._fudo_header_wrap_content_form_input {
+    width: 100%;
+    background: var(--color3);
+    border-radius:15px;
+    border:1px solid #F54748;
+    outline:none;
+    padding:20px 226px 20px 16px;
+    box-shadow: 0px 10px 20px -10px rgba(234, 234, 234, 0.4);
+}
+._fudo_header_wrap_content_form_input::placeholder {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.005em;
+    color: #B1B1B1;
+}
+._fudo_header_wrap_content_form_input:focus::placeholder {
+    opacity:0;
+    transition:.2s ll ease;
+}
+._fudo_header_wrap_content_form_link {
+    outline:none !important;
+    background:#F54748;
+    padding:22px 30px;
+    border-radius: 0 16px 16px 0;
+    border:1px solid #F54748;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+._fudo_header_wrap_content_form_link svg {
+    margin:0 0 0 14px;
+}
+._header_clients {
+    max-width: 419px;
+    width:100%;
+    height:auto;
+    display: block;
+}
+._fudo_header_image {
+    width: fit-content;
+    margin: 0 auto;
+    position:relative;
+}
+._header_card_image {
+    position: absolute;
+    bottom: 0;
+    right: -70px;
+}
+._header_card_img {
+    max-width: 260px;
+    border-radius: 18px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    height: 118px;
+    width: 100%;
+    display: block;
+}
+._header_img {
+    max-width: 506px;
+    width: 100%;
+    height:auto;
+    display: block;
+}
+/*---- Responsive -----*/
+@media(min-width:1200px) and (max-width:1399px) {
+    ._fudo_header_wrap_content_title {
+        max-width: 90%;
+    }
+    ._fudo_header_wrap_content_form_input {
+        padding: 20px 186px 20px 16px;
+    }
+    ._bg_shape {
+        left: 28%;
+        transform: translateX(-28%);
+    }
+}
+@media(max-width:1199px) {
+    ._fudo_header_wrap_content_title {
+        font-size: 46px;
+    }
+    ._fudo_header_wrap_content_para {
+        font-size: 15px;
+        max-width: 82%;
+    }
+    ._form_icon {
+        display: none;
+    }
+    ._fudo_header_wrap_content_form_input {
+        padding: 20px 161px 20px 16px;
+    }
+    ._fudo_header_wrap_content_form_input::placeholder {
+        font-size: 12px;
+    }
+    ._header_img {
+        max-width: 376px;
+        height: 100%;
+    }
+    ._header_card_image {
+        right: -60px;
+    }
+    ._header_card_img {
+        max-width: 220px;
+        height: 88px;
+    }
+}
+@media(max-width:991px) {
+    ._bg_shape {
+        display: none;
+    }
+    ._bg_shape2 {
+        display: none;
+    }
+    ._nav_fudo_list {
+        margin: 0 0 10px 0;
+    }
+    ._nav_fudo_list_item {
+        margin: 0;
+    }
+    ._search_btn_list_item {
+        margin: 0 12px 0 0;
+    }
+    ._fudo_header_image {
+        margin: 60px auto 0 auto;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+}
+@media(max-width:767px) {
+    ._fudo_header_wrap {
+        padding: 70px 0 60px 0;
+    }
+    ._fudo_header_wrap_content {
+        text-align: center;
+    }
+    ._fudo_header_wrap_content_top {
+        margin: 0 auto;
+    }
+    ._fudo_header_wrap_content_title {
+        max-width: 100%;
+    }
+    ._fudo_header_wrap_content_para {
+        max-width: 100%;
+    }
+    ._fudo_header_content_bottom {
+        max-width: 100%;
+    }
+}
+@media(max-width:575px) {
+    ._fudo_header_wrap_content_title {
+        max-width: 100%;
+    }
+    ._fudo_header_wrap_content_para {
+        max-width: 100%;
+    }
+    ._fudo_header_wrap_content_form_link {
+        padding: 22px 18px;
+    }
+    ._fudo_header_wrap_content_form_input {
+        padding: 20px 140px 20px 16px;
+    }
+    ._fudo_header_wrap {
+        padding:50px 0;
+    }
+    ._fudo_header_content_bottom_content {
+        padding: 0 0 0 12px;
+        flex: 1 1;
+    }
+    ._fudo_header_inner_txt {
+        text-align: left;
+    }
+}
+@media(max-width:495px) {
+    ._header_card_image {
+        right: 0;
+    }
+    ._header_card_img {
+        max-width: 150px;
+        height: 100%;
+    }
+}
+@media(max-width:422px) {
+    ._fudo_header_content_bottom_content_title {
+        font-size: 18px;
+    }
+    ._fudo_header_content_bottom_content_para {
+        font-size: 15px;
+    }    
+}
+/*---- Header Css End -----*/

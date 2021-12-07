@@ -1,0 +1,93 @@
+/*------- About css ---------*/
+._about_care_wrapper {
+	padding:100px 0px;
+	background: #FFFAF5;
+}
+._about_care_image {
+	position: relative;
+}
+._about_care_card {
+	position: absolute;
+	top: 138px;
+    left: -44px;
+}
+._card_img {
+    max-width: 138px;
+	width:100%;
+	height:auto;
+	display:block;
+}
+._about_care_image {
+	max-width: 544px;
+	margin:0 auto;
+}
+._about_care_content_txt {
+	font-family: Sora;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.4;
+	color:#5E6085;
+	margin:0 0 16px 0;
+}
+._about_care_content_title {
+	font-family: Sora;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 1.4;
+	color:#000958;
+	margin:0 0 24px 0;
+}
+._about_care_content_para {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4;
+	color:#656689;
+	max-width: 80%;
+	margin:0 0 50px 0;
+}
+._about_care_inner_box_title {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #48496A;
+    margin: 0 0 0 34px;
+}
+._about_care_inner_box {
+	position: relative;
+}
+._about_care_inner {
+    margin: 0 0 30px 0;
+}
+._about_care_inner_box::before {
+	content: url("../images/check.svg");
+	position: absolute;
+	top:0;
+	left:0;
+	width:fit-content;
+	height: 100%;
+}
+._about_img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*------- About css End ---------*/
+
+/*------- Responsive End ---------*/
+
+@media(max-width:767px) {
+	._about_care_wrapper {
+		padding: 70px 0px;
+	}	
+}
+@media(max-width:575px) {
+	._about_care_wrapper {
+		padding: 50px 0px;
+	}
+	._about_care_content_title {
+		font-size: 26px;
+	}
+}
+/*------- Responsive End ---------*/
